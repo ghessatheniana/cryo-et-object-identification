@@ -1,0 +1,8 @@
+[client]
+showErrorDetails = true
+
+[server]
+fileWatcherType = "none"
+# Tambahkan baris ini untuk memberitahu Streamlit agar tidak memonitor direktori Python internal
+# khususnya untuk pustaka seperti torch dan monai.
+#folderWatchBlacklist = ["D:/KULIAH POLBAN/TA/streamlit/.venv/lib/site-packages/torch/", "D:/KULIAH POLBAN/TA/streamlit/.venv/lib/site-packages/monai/"]
